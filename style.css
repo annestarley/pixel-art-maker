@@ -134,3 +134,18 @@ h4 {
 .grey {  background-color: grey;  }
 .white {  background-color: white;  }
 .black {  background-color: black;  }
+
+button {
+  color: grey;
+  background-color: #E5E5E5;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #BBBBBB;
+  margin: auto;
+  margin-top: 15px;
+  width: 100px;
+  float: right;
+}
+
+button:hover {
+  box-shadow: 0 0 50px #BBBBBB;
+}

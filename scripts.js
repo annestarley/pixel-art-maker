@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var selectedColor = 'white'
   var gridCells = document.getElementsByClassName('grid-cell-medium')
   var isMouseDown = false;
+  var button = document.querySelector('button')
 
   for (var i = 0; i < 2800; i++) {
     var gridContainer = document.getElementById('grid-container')
@@ -44,4 +45,8 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   }
 
+
+  button.addEventListener('click', function() {
+    location.reload()
+  })
 })
