@@ -21,6 +21,13 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   }
 
+  for (var i = 0; i < gridCells.length; i++) {
+    gridCells[i].addEventListener('click', function(e) {
+      e.target.style.backgroundColor = selectedColor
+      e.target.style.border = "none"
+    })
+  }
+
   document.body.onmousedown = function() {
     isMouseDown = true;
   }
