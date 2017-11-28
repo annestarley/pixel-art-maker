@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #CCCCCC;
+}
+
+.container {
+  background-color: #E5E5E5;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #BBBBBB;
+  margin: auto;
+  margin-top: 15px;
+  width: 600px;
+}
+
+
+/*GRID*/
+#grid-container {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  justify-content: center;
+  display: inline-block;
+
+}
+
+.grid-cell-medium {
+   background-color: white;
+   height: 10px;
+   width: 10px;
+   border: 1px solid #E5E5E5;
+   float: left;
+}
+
+
+
+
+
+/*COLORS*/
+.color-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  margin: 3px;
+}
+
+.border {
+  border: lightgrey solid 1px;
+}
+
+h4 {
+  color: grey;
+  padding-bottom: 5px;
+  display: inline;
+}
+
+.current-color {
+  border-radius: 25px;
+  height: 25px;
+  width: 50px;
+  border: lightgrey solid 1px;
+  background-color: white;
+  display: inline-block;
+  margin: 5px;
+  margin-top: 15px;
+}
+
+.current-color-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+
+#darkred {  background-color: darkred;  }
+#firebrick {  background-color: firebrick;  }
+#indianred {  background-color: indianred;  }
+#lightcoral {  background-color: lightcoral;  }
+#salmon {  background-color: salmon;  }
+#coral {  background-color: coral;  }
+#darkorange {  background-color: darkorange;  }
+#gold {  background-color: gold;  }
+#tomato {  background-color: tomato;}
+#papayawhip {  background-color: papayawhip;  }
+#peachpuff {  background-color: peachpuff;  }
+#yellow {  background-color: yellow;  }
+#moccasin {  background-color: moccasin;  }
+#lemonchiffon {  background-color: lemonchiffon;  }
+#darkkhaki {  background-color: darkkhaki;  }
+#khaki {  background-color: khaki;  }
+#saddlebrown {  background-color: saddlebrown;  }
+#sienna {  background-color: sienna;  }
+#darkgreen {  background-color: darkgreen;  }
+#darkolivegreen {  background-color: darkolivegreen;  }
+#darkseagreen {  background-color: darkseagreen;  }
+#green {  background-color: green;  }
+#lightgreen {  background-color: lightgreen;  }
+#mediumseagreen {  background-color: mediumseagreen;  }
+#mediumspringgreen {  background-color: mediumspringgreen;  }
+#palegreen {  background-color: palegreen;  }
+#seagreen {  background-color: seagreen;  }
+#springgreen {  background-color: springgreen;  }
+#cadetblue {  background-color: cadetblue;  }
+#teal {  background-color: teal;  }
+#cornflowerblue {  background-color: cornflowerblue;  }
+#darkblue {  background-color: darkblue;  }
+#lightskyblue {  background-color: lightskyblue;  }
+#lightblue {  background-color: lightblue;  }
+#royalblue {  background-color: royalblue;  }
+#steelblue {  background-color: steelblue; border: 1px solid black; }
+#midnightblue {  background-color: midnightblue;  }
+#skyblue {  background-color: skyblue;  }
+#darkmagenta {  background-color: darkmagenta;  }
+#darkorchid {  background-color: darkorchid;  }
+#darkslateblue {  background-color: darkslateblue;  }
+#fuchsia {  background-color: fuchsia;  }
+#mediumpurple {  background-color: mediumpurple;  }
+#mediumslateblue {  background-color: mediumslateblue;  }
+#slateblue {  background-color: slateblue;  }
+#violet {  background-color: violet;  }
+#slategray {  background-color: slategray;  }
+#darkgrey {  background-color: darkgrey;  }
+#grey {  background-color: grey;  }
+#white {  background-color: white;  }
+#black {  background-color: black;  }
