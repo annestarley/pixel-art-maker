@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var currentColor = document.getElementById('current-color')
   var selectedColor = 'white'
   var gridCells = document.getElementsByClassName('grid-cell-medium')
+  var isMouseDown = false;
 
   for (var i = 0; i < 2800; i++) {
     var gridContainer = document.getElementById('grid-container')
@@ -20,10 +21,19 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   }
 
+  document.body.onmousedown = function() {
+    isMouseDown = true;
+  }
+  document.body.onmouseup = function() {
+    isMouseDown = false;
+  }
+
   for (var i = 0; i < gridCells.length; i++) {
-    gridCells[i].addEventListener('click', function(e) {
-      e.target.style.backgroundColor = selectedColor
-      e.target.style.border = "none"
+    gridCells[i].addEventListener('mouseover', function(e) {
+      if (isMouseDown) {
+        e.target.style.backgroundColor = selectedColor
+        e.target.style.border = "none"
+      }
     })
   }
 
