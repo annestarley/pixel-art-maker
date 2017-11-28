@@ -39,7 +39,7 @@ body {
 
 
 /*COLORS*/
-.color-container {
+#color-container {
   display: flex;
   flex-wrap: wrap;
   margin-left: 20px;
@@ -65,12 +65,12 @@ h4 {
   display: inline;
 }
 
-.current-color {
+#current-color {
   border-radius: 25px;
   height: 25px;
   width: 50px;
   border: lightgrey solid 1px;
-  background-color: white;
+  /*background-color: white;*/
   display: inline-block;
   margin: 5px;
   margin-top: 15px;
@@ -83,54 +83,54 @@ h4 {
   margin: auto;
 }
 
-#darkred {  background-color: darkred;  }
-#firebrick {  background-color: firebrick;  }
-#indianred {  background-color: indianred;  }
-#lightcoral {  background-color: lightcoral;  }
-#salmon {  background-color: salmon;  }
-#coral {  background-color: coral;  }
-#darkorange {  background-color: darkorange;  }
-#gold {  background-color: gold;  }
-#tomato {  background-color: tomato;}
-#papayawhip {  background-color: papayawhip;  }
-#peachpuff {  background-color: peachpuff;  }
-#yellow {  background-color: yellow;  }
-#moccasin {  background-color: moccasin;  }
-#lemonchiffon {  background-color: lemonchiffon;  }
-#darkkhaki {  background-color: darkkhaki;  }
-#khaki {  background-color: khaki;  }
-#saddlebrown {  background-color: saddlebrown;  }
-#sienna {  background-color: sienna;  }
-#darkgreen {  background-color: darkgreen;  }
-#darkolivegreen {  background-color: darkolivegreen;  }
-#darkseagreen {  background-color: darkseagreen;  }
-#green {  background-color: green;  }
-#lightgreen {  background-color: lightgreen;  }
-#mediumseagreen {  background-color: mediumseagreen;  }
-#mediumspringgreen {  background-color: mediumspringgreen;  }
-#palegreen {  background-color: palegreen;  }
-#seagreen {  background-color: seagreen;  }
-#springgreen {  background-color: springgreen;  }
-#cadetblue {  background-color: cadetblue;  }
-#teal {  background-color: teal;  }
-#cornflowerblue {  background-color: cornflowerblue;  }
-#darkblue {  background-color: darkblue;  }
-#lightskyblue {  background-color: lightskyblue;  }
-#lightblue {  background-color: lightblue;  }
-#royalblue {  background-color: royalblue;  }
-#steelblue {  background-color: steelblue; border: 1px solid black; }
-#midnightblue {  background-color: midnightblue;  }
-#skyblue {  background-color: skyblue;  }
-#darkmagenta {  background-color: darkmagenta;  }
-#darkorchid {  background-color: darkorchid;  }
-#darkslateblue {  background-color: darkslateblue;  }
-#fuchsia {  background-color: fuchsia;  }
-#mediumpurple {  background-color: mediumpurple;  }
-#mediumslateblue {  background-color: mediumslateblue;  }
-#slateblue {  background-color: slateblue;  }
-#violet {  background-color: violet;  }
-#slategray {  background-color: slategray;  }
-#darkgrey {  background-color: darkgrey;  }
-#grey {  background-color: grey;  }
-#white {  background-color: white;  }
-#black {  background-color: black;  }
+.darkred {  background-color: darkred;  }
+.firebrick {  background-color: firebrick;  }
+.indianred {  background-color: indianred;  }
+.lightcoral {  background-color: lightcoral;  }
+.salmon {  background-color: salmon;  }
+.coral {  background-color: coral;  }
+.darkorange {  background-color: darkorange;  }
+.gold {  background-color: gold;  }
+.tomato {  background-color: tomato;}
+.papayawhip {  background-color: papayawhip;  }
+.peachpuff {  background-color: peachpuff;  }
+.yellow {  background-color: yellow;  }
+.moccasin {  background-color: moccasin;  }
+.lemonchiffon {  background-color: lemonchiffon;  }
+.darkkhaki {  background-color: darkkhaki;  }
+.khaki {  background-color: khaki;  }
+.saddlebrown {  background-color: saddlebrown;  }
+.sienna {  background-color: sienna;  }
+.darkgreen {  background-color: darkgreen;  }
+.darkolivegreen {  background-color: darkolivegreen;  }
+.darkseagreen {  background-color: darkseagreen;  }
+.green {  background-color: green;  }
+.lightgreen {  background-color: lightgreen;  }
+.mediumseagreen {  background-color: mediumseagreen;  }
+.mediumspringgreen {  background-color: mediumspringgreen;  }
+.palegreen {  background-color: palegreen;  }
+.seagreen {  background-color: seagreen;  }
+.springgreen {  background-color: springgreen;  }
+.cadetblue {  background-color: cadetblue;  }
+.teal {  background-color: teal;  }
+.cornflowerblue {  background-color: cornflowerblue;  }
+.darkblue {  background-color: darkblue;  }
+.lightskyblue {  background-color: lightskyblue;  }
+.lightblue {  background-color: lightblue;  }
+.royalblue {  background-color: royalblue;  }
+.steelblue {  background-color: steelblue; border: 1px solid black; }
+.midnightblue {  background-color: midnightblue;  }
+.skyblue {  background-color: skyblue;  }
+.darkmagenta {  background-color: darkmagenta;  }
+.darkorchid {  background-color: darkorchid;  }
+.darkslateblue {  background-color: darkslateblue;  }
+.fuchsia {  background-color: fuchsia;  }
+.mediumpurple {  background-color: mediumpurple;  }
+.mediumslateblue {  background-color: mediumslateblue;  }
+.slateblue {  background-color: slateblue;  }
+.violet {  background-color: violet;  }
+.slategray {  background-color: slategray;  }
+.darkgrey {  background-color: darkgrey;  }
+.grey {  background-color: grey;  }
+.white {  background-color: white;  }
+.black {  background-color: black;  }
