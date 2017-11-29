@@ -26,7 +26,7 @@ header h1 {
 #A:hover {  color: cornflowerblue  }
 #n1 {  color: seagreen  }
 #n1:hover {  color: gold  }
-#n2 {  color: orange  }
+#n2 {  color: darkorange  }
 #n2:hover {  color: darkred  }
 #e {  color: cornflowerblue  }
 #e:hover {  color: tomato  }
@@ -40,7 +40,7 @@ header h1 {
 #i:hover {  color: gold  }
 #x {  color: purple  }
 #x:hover {  color: darkred  }
-#e2 {  color:orange  }
+#e2 {  color:darkorange  }
 #e2:hover {  color: cornflowerblue  }
 #l {  color:red  }
 #l:hover {  color: purple  }
@@ -52,7 +52,7 @@ header h1 {
 #t:hover {  color: gold  }
 #M {  color: cornflowerblue  }
 #M:hover {  color: tomato  }
-#a {  color: orange  }
+#a {  color: darkorange  }
 #a:hover {  color: purple  }
 #k {  color: seagreen  }
 #k:hover {  color: darkred  }
