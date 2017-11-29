@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var isMouseDown = false;
   var button = document.querySelector('button')
 
-  for (var i = 0; i < 2800; i++) {
+  for (var i = 0; i < 11200; i++) {
     var gridContainer = document.getElementById('grid-container')
     gridCell = document.createElement('div')
     gridCell.classList.add('grid-cell-medium')
