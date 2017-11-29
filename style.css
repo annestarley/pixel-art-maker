@@ -6,6 +6,66 @@ body {
   background-color: #CCCCCC;
 }
 
+
+
+.name-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Boogaloo', cursive;
+  font-size: 4em;
+  display: inline-block;
+  text-align: center;
+}
+
+#A {  color: darkred  }
+#A:hover {  color: cornflowerblue  }
+#n1 {  color: seagreen  }
+#n1:hover {  color: gold  }
+#n2 {  color: orange  }
+#n2:hover {  color: darkred  }
+#e {  color: cornflowerblue  }
+#e:hover {  color: tomato  }
+#comma {  color: darkred  }
+#comma:hover {  color: gold  }
+#s {  color: purple  }
+#s:hover {  color: orange  }
+#P {  color: tomato  }
+#P:hover {  color: green  }
+#i {  color:cornflowerblue  }
+#i:hover {  color: gold  }
+#x {  color: purple  }
+#x:hover {  color: darkred  }
+#e2 {  color:orange  }
+#e2:hover {  color: cornflowerblue  }
+#l {  color:red  }
+#l:hover {  color: purple  }
+#A2 {  color: green  }
+#A2:hover {  color: gold  }
+#r {  color: darkorange  }
+#r:hover {  color: seagreen  }
+#t {  color: darkred  }
+#t:hover {  color: gold  }
+#M {  color: cornflowerblue  }
+#M:hover {  color: tomato  }
+#a {  color: orange  }
+#a:hover {  color: purple  }
+#k {  color: seagreen  }
+#k:hover {  color: darkred  }
+#e3 {  color: tomato  }
+#e3:hover {  color: cornflowerblue  }
+#r2 {  color: purple  }
+#r2:hover {  color: gold  }
+
+
+
+
+
+
+
 .container {
   background-color: #E5E5E5;
   border-radius: 25px;
