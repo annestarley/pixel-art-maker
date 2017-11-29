@@ -18,6 +18,7 @@ header h1 {
   font-family: 'Boogaloo', cursive;
   font-size: 4em;
   display: inline-block;
+  margin: 8px;
   text-align: center;
 }
 
